@@ -1,3 +1,5 @@
+centos-webpanel
+
 # CentOS 7: Installer for CentOS 7 (recommended)
 
 ```bash
