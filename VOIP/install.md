@@ -1,4 +1,6 @@
-Installasion of VOS3000
+# Installation of VOS3000
+
+# CentOS 6.10 Prefer 
 
 ``````
 /etc/init.d/iptables status
