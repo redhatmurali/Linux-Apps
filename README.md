@@ -1,1 +1,1 @@
-# Quick to learn without Wasting time on videos
+# Quick to Recap without wasting time on videos
