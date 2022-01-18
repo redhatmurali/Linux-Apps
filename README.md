@@ -1,1 +1,1 @@
-# Quick to Recap without wasting time on videos
+# Quick to Recap! Or wasting time on videos ?
