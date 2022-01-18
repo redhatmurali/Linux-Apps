@@ -1,7 +1,5 @@
 # AWX On Centos8 With Docker
 
-# Installing Ansible
-
 Add EPEL repo
 
 ```bash
@@ -112,4 +110,3 @@ default admin / password
 ```
 # AWX On Centos8 With Kubernetis Cluster
 
-# Installing Ansible
