@@ -49,7 +49,7 @@ Now excute playbooks
 ```
 ansible-playbooks http.yaml
 ```
-# in cases need to install using user then need to add SUDO
+# IN cases need to install using user then need to add SUDO
 
 login to Ansible Server 
 
