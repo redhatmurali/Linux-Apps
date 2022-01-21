@@ -108,5 +108,5 @@ awx-manage changepassword admin
 ```bash
 default admin / password
 ```
-# AWX On Centos8 With Kubernetis Cluster
+
 
