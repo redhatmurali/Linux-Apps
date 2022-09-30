@@ -21,11 +21,15 @@ reboot
 ###### vicidial installation centos7.9###########
 
 git clone https://github.com/redhatmurali/Linux/tree/main/VOIP/vicidial.git
+
 cd vicidial
+
 chmod +x vicidial-centos7.sh
+
 ./vicidial-centos7.sh
 
 #########webrtc installation#############
 
 chmod +x vicidial-webrtc.sh
+
 ./vicidial-webrtc.sh
