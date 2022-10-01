@@ -28,12 +28,18 @@ chmod +x vicidial-install-centos7.sh
 ./vicidial-install-centos7.sh
 
 git clone https://github.com/wdoekes/asterisk-chan-dongle.git
+
 cd asterisk-chan-dongle/
+
 ./bootstrap
+
 ./configure --with-astversion=13.29.2
 
+
 make
+
 make install
+
 cp ./etc/dongle.conf /etc/asterisk/
 
 yum install usb_modeswitch*
