@@ -48,3 +48,5 @@ yum install usbutils
 asterisk -rrrr
 
 module load chan_dongle.so
+
+http://192.168.1.25/vicidial/admin.php?ADD=999999
