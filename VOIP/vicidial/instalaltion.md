@@ -45,3 +45,6 @@ yum install usb_modeswitch*
 
 yum install usbutils
 
+asterisk -rrrr
+
+module load chan_dongle.so
