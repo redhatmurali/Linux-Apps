@@ -20,7 +20,6 @@ systemctl disable firewalld
 
 reboot
 
-
 git clone https://github.com/jaganthoutam/vicidial-install-scripts.git
 cd vicidial-install-scripts
 
