@@ -1,3 +1,17 @@
+
+///
+yum check-update
+yum update -y
+yum -y install epel-release
+yum -y groupinstall 'Development Tools'
+yum -y update
+yum install -y kernel*
+///
+sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/selinux/config
+timedatectl set-timezone America/New_York
+
+
+
 yum check-update
 
 yum update -y
