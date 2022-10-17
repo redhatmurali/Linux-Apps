@@ -1,5 +1,6 @@
 
-///
+```
+
 yum check-update
 yum update -y
 yum -y install epel-release
@@ -9,8 +10,8 @@ yum install -y kernel*
 
 sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/selinux/config
 timedatectl set-timezone America/New_York
+```
 
-\\\\
 
 yum check-update
 
