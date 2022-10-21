@@ -37,11 +37,7 @@ SSL Instalaltion
 ```
 
 
-####################OVER##############################
-
-           HOW TO BACKUP VICIDIAL 
-
-######################################################
+HOW TO BACKUP VICIDIAL 
 
  /usr/share/astguiclient/ADMIN_backup.pl --archive_path=/root
  
