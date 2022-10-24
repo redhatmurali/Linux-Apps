@@ -26,3 +26,11 @@ Updating DKIM data for a domain
 Removing DKIM data for a domain
 
  /opt/zimbra/libexec/zmdkimkeyutil -r -d norditsz.tk
+
+
+SSL INstalaltion
+
+https://bobcares.com/blog/secure-zimbra-server-with-lets-encrypt-certificate/
+
+ZImbra instalaltion 
+https://inguide.in/install-zimbra-mail-server-on-centos-step-by-step/
