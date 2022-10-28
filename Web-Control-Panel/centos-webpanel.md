@@ -13,6 +13,11 @@ sh cwp-el7-latest
 Set Hostname
 ```bash
 hostnamectl set-hostname webpanel.yourdomain.in
+yum -y install wget
+yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+dnf install wget -y
+yum -y update
+reboot
 ```
 
 centos-webpanel
