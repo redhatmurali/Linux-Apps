@@ -10,6 +10,11 @@ sh cwp-el7-latest
 
 # CentOS 8: Installer for CentOS 8
 
+Set Hostname
+```bash
+hostnamectl set-hostname webpanel.yourdomain.in
+```
+
 centos-webpanel
 
 ```bash
