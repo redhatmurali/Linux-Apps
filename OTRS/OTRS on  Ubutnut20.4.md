@@ -42,10 +42,10 @@ tar -jxvf otrs-community-edition-6.0.37.tar.bz2
 
 mv otrs-community-edition-6.0.37 /opt/otrs
 
-/opt/otrs/bin/otrs.CheckModules.pl
-
 apt-get install -y libjavascript-minifier-xs-perl
 apt-get install -y libcss-minifier-xs-perl
+
+/opt/otrs/bin/otrs.CheckModules.pl
 
 cp /opt/otrs/Kernel/Config.pm.dist /opt/otrs/Kernel/Config.pm
 
