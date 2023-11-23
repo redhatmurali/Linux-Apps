@@ -1,0 +1,30 @@
+(putty & winscp )
+
+
+putty ----
+
+yum update asterisk -y
+
+
+rpm -ivh https://gs2-egypt.com/chan_dongle-asterisk-11.25-0-rev34.x86_64.rpm
+
+
+rasterisk
+
+
+core set verbose 3
+
+
+exit
+
+yum install usb_modeswitch -y
+
+
+winscp --
+
+put  /etc/udev/rules.d/92-dongle.rules
+put /etc/asterisk/dongle.conf
+
+
+issabel ---- (custum trunk)
+dongle/dongle0/$OUTNUM$
