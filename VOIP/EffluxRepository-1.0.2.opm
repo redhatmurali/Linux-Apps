@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<otrs_package version="1.1">
+  <Name>EffluxRepository</Name>
+  <Version>1.0.2</Version>
+  <Vendor>Efflux GmbH</Vendor>
+  <URL>https://efflux.de/</URL>
+  <License>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</License>
+  <ChangeLog Date="2020-08-05" Version="1.0.2">Fixed a bug where the repository would clash with packages who also add custom repositories or blocks the setting. Dropped support for version 4.</ChangeLog>
+  <ChangeLog Date="2020-04-24" Version="1.0.1">Release for OTRS 4, 5, 6, 7, and 8.</ChangeLog>
+  <Description Lang="en">A repository from Efflux to install and update add-ons from portal.efflux.de directly within OTRS.</Description>
+  <Description Lang="de">Eine Repository von Efflux, um Add-ons von portal.efflux.de direkt aus OTRS heraus zu installieren und zu updaten.</Description>
+  <Framework>8.x.x</Framework>
+  <Framework>7.x.x</Framework>
+  <Framework>6.x.x</Framework>
+  <Framework>5.x.x</Framework>
+  <PackageIsDownloadable>0</PackageIsDownloadable>
+  <BuildDate>2020-08-05</BuildDate>
+  <BuildHost>https://portal.efflux.de</BuildHost>
+  <Filelist>
+    <File Location="Kernel/Config/Files/ZZZEffluxRepository.pm" Permission="644" Encode="Base64">IyBLZWVwIGxpbmUgYmVsb3cgZm9yIFY1LgojIFZFUlNJT046MS4xCiMgLS0KIyBDb3B5cmlnaHQgKEMpIDIwMTnigJNwcmVzZW50IEVmZmx1eCBHbWJILCBodHRwczovL2VmZmx1eC5kZS8KIyBQYXJ0IG9mIHRoZSBFZmZsdXhSZXBvc2l0b3J5IHBhY2thZ2UuCiMgLS0KIyBUaGlzIHNvZnR3YXJlIGNvbWVzIHdpdGggQUJTT0xVVEVMWSBOTyBXQVJSQU5UWS4gRm9yIGRldGFpbHMsIHNlZQojIHRoZSBlbmNsb3NlZCBmaWxlIENPUFlJTkcgZm9yIGxpY2Vuc2UgaW5mb3JtYXRpb24gKEdQTCkuIElmIHlvdQojIGRpZCBub3QgcmVjZWl2ZSB0aGlzIGZpbGUsIHNlZSBodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzL2dwbC0zLjAudHh0LgojIC0tCgpwYWNrYWdlIEtlcm5lbDo6Q29uZmlnOjpGaWxlczo6WlpaRWZmbHV4UmVwb3NpdG9yeTsKCnVzZSBzdHJpY3Q7CnVzZSB3YXJuaW5nczsKCm5vIHdhcm5pbmdzICdyZWRlZmluZSc7CgpzdWIgTG9hZCB7CglteSAoJEZpbGUsICRTZWxmKSA9IEBfOwoJbXkgJFJlcG9LZXkgPSAnaHR0cHM6Ly9yZXBvLmVmZmx1eC5kZS9rZXkvMjBkMTAyNjFiOTk3OGU1MDk4NTM5YTNmZDJiY2Q1ZGInOwoJbXkgJFJlcG9OYW1lID0gJ0VmZmx1eCByZXBvc2l0b3J5IGZvciBNdXJhbGkgS3Jpc2huYSc7CgoJbXkgJFJlcG9zaXRvcnlMaXN0ID0gJFNlbGYtPnsnUGFja2FnZTo6UmVwb3NpdG9yeUxpc3QnfSB8fCB7fTsKCSRSZXBvc2l0b3J5TGlzdC0+eyRSZXBvS2V5fSA9ICRSZXBvTmFtZTsKCSRTZWxmLT57J1BhY2thZ2U6OlJlcG9zaXRvcnlMaXN0J30gPSAkUmVwb3NpdG9yeUxpc3Q7CgoJaWYgKCRTZWxmLT57J0RvY3VtZW50U2VhcmNoOjpDWE5Qb29sJ30pIHsgIyBWNwoJfSBlbHNpZiAoJFNlbGYtPnsnT1RSU1RpbWVab25lJ30pIHsgIyBWNgoJCSRTZWxmLT57J1BhY2thZ2U6OkFsbG93Tm90VmVyaWZpZWRQYWNrYWdlcyd9ID0gMTsKCQlkZWxldGUgJFNlbGYtPnsnRnJvbnRlbmQ6Ok5vdGlmeU1vZHVsZSd9LT57JzgwMDAtUGFja2FnZU1hbmFnZXItQ2hlY2tOb3RWZXJpZmllZFBhY2thZ2VzJ307Cgl9IGVsc2lmICgkU2VsZi0+eydBdXRoVHdvRmFjdG9yTW9kdWxlOjpTZWNyZXRQcmVmZXJlbmNlc0tleSd9KSB7ICMgVjUKCX0KCglyZXR1cm47Cn0KCjE7Cg==</File>
+  </Filelist>
+</otrs_package>
