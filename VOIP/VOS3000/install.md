@@ -1,5 +1,11 @@
 
 `````
+to update kernal 
+wget https://ftp.sjtu.edu.cn/sites/ftp.scientificlinux.org/linux/scientific/6.2/x86_64/updates/security/kernel-2.6.32-358.el6.x86_64.rpm
+
+rpm -ivh kernel-2.6.32-358.el6.x86_64.rpm --oldpackage
+
+
 /etc/init.d/iptables status
 /etc/init.d/iptables save
 /etc/init.d/iptables stop
